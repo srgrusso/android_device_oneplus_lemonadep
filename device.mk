@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget \
-    OPlusWifiResTarget
+    OPlusWifiResTarget \
+    PixelSetupWizardResTarget
 
 # PowerShare
 PRODUCT_PACKAGES += \
