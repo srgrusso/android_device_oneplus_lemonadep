@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lemonadep.mk
+    $(LOCAL_DIR)/bliss_lemonadep.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lemonadep-user \
-    aosp_lemonadep-userdebug \
-    aosp_lemonadep-eng
+    bliss_lemonadep-user \
+    bliss_lemonadep-userdebug \
+    bliss_lemonadep-eng
