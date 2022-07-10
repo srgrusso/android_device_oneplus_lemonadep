@@ -15,6 +15,7 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1440
