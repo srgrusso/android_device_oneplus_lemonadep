@@ -102,9 +102,7 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
 # Camera
 my_product/etc/camera/engineer_camera_config:system_ext/etc/camera/engineer_camera_config
-my_product/etc/camera/mtCalibrationCfg.xml:system_ext/etc/camera/mtCalibrationCfg.xml
 my_product/etc/camera/mtInputparam.xml:system_ext/etc/camera/mtInputparam.xml
-my_product/etc/camera/mwCalibrationCfg.xml:system_ext/etc/camera/mwCalibrationCfg.xml
 my_product/etc/camera/mwInputparam.xml:system_ext/etc/camera/mwInputparam.xml
 my_product/lib64/libAPSClient-cmd-jni.so:system_ext/lib64/libAPSClient-cmd-jni.so
 my_product/lib64/libAPSClient-jni.so:system_ext/lib64/libAPSClient-jni.so
@@ -808,6 +806,8 @@ odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
+system_ext/etc/camera/mtCalibrationCfg.xml|026d6fd8294c3357aee29827fdc0ccc8c326dfb9
+system_ext/etc/camera/mwCalibrationCfg.xml|abf0ff8c648140e702b38f4437e21c9a3fff3730
 system/framework/oplus-support-wrapper.jar
 system_ext/lib/libHeifEncoderWrapper.so
 system_ext/lib/libNativeWinBuffExchange.so
