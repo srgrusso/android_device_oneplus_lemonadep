@@ -13,7 +13,7 @@ DEVICE_PATH := device/oneplus/lemonadep
 TARGET_OTA_ASSERT_DEVICE := lemonadep|OnePlus9Pro|oneplus9pro
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 450
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
