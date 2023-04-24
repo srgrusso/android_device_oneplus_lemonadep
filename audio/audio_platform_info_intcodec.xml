@@ -151,6 +151,8 @@
         <!--Run.Zhang@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/04/09 , Add for headphone volume match to impedance end-->
         <!--Yewenliang@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/01/07, add for headset mic record with ns-->
         <param key="hs_rec_with_ns" value="true"/>
+        <!-- Xinlong.An@MULTIMEDIA.AUDIODRIVER.HAL, 2022/03/14, Add for voice car downlink mute -->
+        <param key="enable_car_vc_dl_mute" value="true"/>
     </config_params>
     <gain_db_to_level_mapping>
         <gain_level_map db="-59" level="5"/>
