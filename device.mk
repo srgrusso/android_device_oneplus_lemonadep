@@ -65,6 +65,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 # Inherit OnePlus camera
 $(call inherit-product, vendor/oneplus/camera/camera-vendor.mk)
 
