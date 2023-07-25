@@ -1,0 +1,50 @@
+[
+ {
+   "remote":      "github",
+   "repository":  "BlissRoms-Devices/android_device_oneplus_sm8350-common",
+   "target_path": "device/oneplus/sm8350-common",
+   "revision":    "typhoon"
+  },
+ {
+   "remote":      "github",
+   "repository":  "BlissRoms-Devices/android_kernel_oneplus_sm8350",
+   "target_path": "kernel/oneplus/sm8350",
+   "revision":    "typhoon"
+ },
+   {
+   "remote":      "github",
+   "repository":  "BlissRoms-Devices/android_hardware_oneplus",
+   "target_path": "hardware/oplus",
+   "revision":    "typhoon"
+  },
+  {
+   "remote":      "gitlab",
+   "repository":  "srgrusso/proprietary_vendor_oneplus_lemonadep",
+   "target_path": "vendor/oneplus/lemonadep",
+   "revision":    "bliss-t"
+  },
+  {
+   "remote":      "gitlab",
+   "repository":  "srgrusso/proprietary_vendor_oneplus_sm8350-common",
+   "target_path": "vendor/oneplus/sm8350-common",
+   "revision":    "bliss-t"
+  },
+   {
+   "remote":      "github",
+   "repository":  "srgrusso/packages_apps_OPlusExtras",
+   "target_path": "packages/apps/OPlusExtras",
+   "revision":    "bliss-t"
+  },
+  {
+   "remote":      "gitlab",
+   "repository":  "srgrusso/vendor_oplus_camera",
+   "target_path": "vendor/oplus/camera,
+   "revision":    "bliss-t-op9pro"
+  },
+  {
+   "remote":      "gitlab",
+   "repository":  "srgrusso/vendor_oneplus-firmware",
+   "target_path": "vendor/oneplus-firmware",
+   "revision":    "bliss-t"
+  }
+]
