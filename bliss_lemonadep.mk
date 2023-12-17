@@ -17,6 +17,8 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+BLISS_BUILDTYPE := OFFICIAL
+
 # Gapps
 TARGET_ESSENTIAL_GAPPS := true
 TARGET_STOCK_GAPPS := true
