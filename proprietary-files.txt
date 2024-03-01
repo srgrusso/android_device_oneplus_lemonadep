@@ -159,7 +159,6 @@ odm/etc/camera/config/imx766
 odm/etc/camera/config/imx789
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
-odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/ov08a10
 odm/etc/camera/config/video_beauty_default_config
