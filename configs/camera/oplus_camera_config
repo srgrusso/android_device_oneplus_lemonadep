@@ -463,13 +463,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.video.4k.60fps.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
   "VendorTag": "com.oplus.feature.video.4k.120fps.support",
   "Type": "Byte",
   "Count": "1",
