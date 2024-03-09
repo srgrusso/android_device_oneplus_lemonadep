@@ -10,7 +10,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    DeviceSettings \
+    KeyHandler \
     tri-state-key-calibrate
 
 # Audio
