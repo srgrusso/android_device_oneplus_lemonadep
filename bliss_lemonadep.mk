@@ -11,10 +11,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonadep device
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonadep
+BLISS_BUILDTYPE := OFFICIAL
+
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Gapps
+TARGET_ESSENTIAL_GAPPS := true
+TARGET_STOCK_GAPPS := true
+
+PRODUCT_NAME := bliss_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -31,11 +40,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := OnePlus/OnePlus9Pro/OnePlus9Pro:14/UKQ1.230924.001/R.15e31fa-32d-51dd:user/release-keys
-
-# Matrixx
-MATRIXX_BUILD_TYPE := Official
-MATRIXX_MAINTAINER := mukesh22584
-MATRIXX_CHIPSET := SM8350
-MATRIXX_BATTERY := 4500mAh
-MATRIXX_DISPLAY := 1440x3216
-WITH_GMS := true
