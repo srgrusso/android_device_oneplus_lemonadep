@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9 Pro (LE2121_14.0.0.212(EX01)).
+## are from OnePlus 9 Pro (LE2121_14.0.0.500(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -658,6 +658,7 @@ odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
 odm/lib64/libancbase_rt_bokeh.so
 odm/lib64/libancbase_segbase.so
+odm/lib64/libapsultrahdr.so
 odm/lib64/libancbase_segment.so
 odm/lib64/libAncFilter.so
 odm/lib64/libAncHumanDoubleExposure.so
@@ -818,6 +819,7 @@ odm/lib/libdehaze.so
 odm/lib/libDeVIS.so
 odm/lib/libnightvision.so
 odm/lib/libVDBlurlessAPI_v2.so
+odm/lib/libapsultrahdr.so
 system_ext/lib64/libHeifEncoderWrapper.so
 system_ext/lib64/libHeifWinBufExchg-jni.so
 system_ext/lib64/libNativeWinBuffExchange.so
