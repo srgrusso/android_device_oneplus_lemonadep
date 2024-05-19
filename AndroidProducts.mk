@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/bliss_lemonadep.mk
-
-COMMON_LUNCH_CHOICES := \
-    bliss_lemonadep-user \
-    bliss_lemonadep-userdebug \
-    bliss_lemonadep-eng
