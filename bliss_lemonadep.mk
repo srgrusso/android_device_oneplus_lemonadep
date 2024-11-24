@@ -11,10 +11,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonadep device
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonadep
+BLISS_BUILDTYPE := OFFICIAL
+
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Gapps
+TARGET_ESSENTIAL_GAPPS := true
+TARGET_STOCK_GAPPS := true
+
+PRODUCT_NAME := bliss_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
