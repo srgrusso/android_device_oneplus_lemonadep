@@ -15,6 +15,14 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+ BLISS_BUILDTYPE := OFFICIAL
+
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 PRODUCT_NAME := lineage_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
