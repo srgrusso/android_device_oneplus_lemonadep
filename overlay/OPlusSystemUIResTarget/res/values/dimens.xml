@@ -41,4 +41,8 @@
     <dimen name="tri_state_up_dialog_position_l">635px</dimen>
     <dimen name="tri_state_up_dialog_position_deep">32px</dimen>
     <dimen name="tri_state_up_dialog_position_deep_land">28px</dimen>
-</resources>
+
+    <!-- Recognizing fingerprint animation -->
+    <dimen name="udfps_animation_size">176dp</dimen>
+    <dimen name="udfps_animation_offset">0dp</dimen>
+ </resources>
